@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/d60b1768fc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="container">
+                <div class="left-intro">
+                    <h3 class="intro-title">INTRODUCTION</h3>
+                    <h1 class="intro-h1">Full Stack Web Developer</h1> 
+                    <span class="intro-span"></span>
+                    <p class="intro-p">I develop Websites, I find my passion in turning great ideas into projects, Geek with technology, especially in developing Web applications.</p>
+                    <img src="./images/signature.png"  width="300px" alt="My signature">
+                </div>
+                <div class="right-intro">
+                    <div class="fixed">
+                        <div class="menu">
+                            <div class="menu-btn">
+                                <h3 class="menu-title">Menu</h3>
+                                <button id="popup-button"><i class="fa-solid fa-bars" style="color: #c9c9c9;"></i></button>
+                            </div>
+                            <div id="popup-menu">
+                                <div class="close-div">
+                                    <button id="close-button"><i class="fa-regular fa-2x fa-rectangle-xmark" style="color: #987750;"></i></button>
+                                </div>
+                                <ul class="menu-ul">
+                                    <li style="font-weight: bold;">MENU</li>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div> 
+                        <div class="right-top">
+                            <div class="border1"></div>
+                            <div class="border2"></div>
+                            <div class="dev-img">
+                                <img src="./images/square.jpeg" alt="developer">
+                                <div class="abs_img" data-bg-img="./images/developer.svg" style="background-image: url('./images/developer.svg');"></div>
+                            </div>
+                            <div class="title-holder">
+                                <h5 class="title-h5">HI THERE! I AM</h5>
+                                <i class="fa-solid fa-chevron-left fa-fade" style="color: #987550;"></i>
+                                <h3 id="text"></h3>
+                                <i class="fa-solid fa-chevron-right fa-fade" style="color: #987550;"></i>
+                            </div>
+                        </div>
+                        <div class="right-bottom">
+                            <span class="circle"></span>
+                            <a href="#contact">I'm available for a job. Hire me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-intro">
+                    <h3 class="about-title">ABOUT ME</h3>
+                    <h2 class="about-h1">Biography</h2> 
+                    <span class="intro-span"></span>
+                    <p class="intro-p">Experienced Web Developer with +2 years of experience in Web Development, seeking a challenging and progressive position to gain knowledge and experience.</p>
+                </div>
+                <div class="right-intro"></div>
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
