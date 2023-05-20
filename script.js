@@ -1,3 +1,4 @@
+// Menu
 const popupButton = document.getElementById('popup-button');
 const closeButton = document.getElementById('close-button');
 const popupMenu = document.getElementById('popup-menu');
@@ -9,6 +10,7 @@ closeButton.addEventListener('click', function() {
     popupMenu.style.display = 'none' ;
 });
 
+// Typing Text 
 const texts = ['John Doe', 'Web Developer'];
 const textElement = document.getElementById('text');
 let textIndex = 0;
@@ -39,3 +41,10 @@ function eraseText() {
 }
 
 typeText();
+
+// Canvas Signature
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+ctx.font = "35px Pacifico";
+ctx.fillStyle = "gray";
+ctx.fillText("John Doe", 10, 50);
