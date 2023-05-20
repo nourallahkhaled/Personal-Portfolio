@@ -1,3 +1,7 @@
+:root {
+    --mc: #987750;
+    --tc: #888;
+}
 * {
     box-sizing: border-box;
 }
@@ -175,7 +179,7 @@ div{
     padding-top: 4px;
 }
 
-.tabs .tab_header .active a {
+.tabs .tab_header .active {
     color: var(--mc);
     border-bottom-color: var(--mc);
 }
@@ -235,7 +239,6 @@ div{
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-
 .boxed_list li {
     margin: 0;
     padding: 0;
