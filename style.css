@@ -27,19 +27,18 @@ h1,h2,h3,h4,h5,h6{
     background-color: rgba(0, 0, 0, 0.737);
     transform: translateX(100%);
     box-sizing: border-box;
-  }
-  .overlay.menu-opened{
- 
+}
+.overlay.menu-opened{
     width: 100%;
     transform: translateX(0%);
     transition: width .8s ease-out;
-  }
-  .overlay.menu-closed{
- 
+}
+.overlay.menu-closed{
     width: 0;
     transform: translateX(0%);
     transition: width .8s ease-out;
-  }
+}
+
 /* Menu */
 .menu-btn{
     text-align: end;
@@ -106,17 +105,18 @@ h1,h2,h3,h4,h5,h6{
 #popup-menu li a:hover{
     color: #987750;
 }
-/* Home */
 
+/* Home */
 .container{
     padding: 0 6%;
 }
 .left-intro{
-    padding: 150px 0;
+    /* padding: 150px 0; */
+    padding-top: 150px;
     width: 60%;
     height: 100%;
     padding-right: 2em;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid rgba(255,255,255,.2);
 }
 .right-intro.scrolled{
     width: 30%;
@@ -162,7 +162,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .fixed{
     position: fixed;
-    top: 50px;
+    top: 30px;
     left: 70%;
     width: 30%;
 }
@@ -232,10 +232,11 @@ h1,h2,h3,h4,h5,h6{
     transition-duration: 0.5s;
 }
 /* About */
-.about-intro{
+/* .about-intro{
     padding: 100px 0;
     width: 50%;
-}
+    
+} */
 .about-title{
     color: #987750;
     font-size: 18px;
