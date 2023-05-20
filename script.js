@@ -2,13 +2,24 @@
 const popupButton = document.getElementById('popup-button');
 const closeButton = document.getElementById('close-button');
 const popupMenu = document.getElementById('popup-menu');
+const main = document.getElementById('overlay');
 
 popupButton.addEventListener('click', function() {
-popupMenu.style.display = 'inline-block' ;
+// popupMenu.style.display = 'inline-block' ;
+popupMenu.classList.toggle('show', true);
+popupMenu.classList.remove('hide', true);
+main.classList.remove('menu-closed');
+main.classList.toggle('menu-opened', true);
+
 });
 closeButton.addEventListener('click', function() {
-    popupMenu.style.display = 'none' ;
+    // popupMenu.style.display = 'none' ;
+    main.classList.toggle('menu-closed', true);
+    popupMenu.classList.toggle('hide', true);
+
+
 });
+
 
 // Typing Text 
 const texts = ['John Doe', 'Web Developer'];
