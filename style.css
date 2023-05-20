@@ -110,6 +110,7 @@ h1,h2,h3,h4,h5,h6{
 .container{
     padding: 0 6%;
 }
+
 .left-intro{
     /* padding: 150px 0; */
     padding-top: 150px;
@@ -118,6 +119,7 @@ h1,h2,h3,h4,h5,h6{
     padding-right: 2em;
     border-right: 1px solid rgba(255,255,255,.2);
 }
+
 .right-intro.scrolled{
     width: 30%;
     transition: width 800ms ;
@@ -131,6 +133,7 @@ h1,h2,h3,h4,h5,h6{
     width: 70%;
     transition: width 800ms ;
 }
+
 .intro-title{
     color: #987750;
     font-size: 18px;
@@ -158,7 +161,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .right-intro{
     position: relative;
-    width: 40%;
+    width: 20%;
 }
 .fixed{
     position: fixed;
@@ -231,10 +234,9 @@ h1,h2,h3,h4,h5,h6{
     color: #ddd;
     transition-duration: 0.5s;
 }
-/* About */
-/* .about-intro{
-    padding: 100px 0;
-    width: 50%;
+.about{
+    width: 100%;
+    padding: 0 6%;
     
 } */
 .about-title{

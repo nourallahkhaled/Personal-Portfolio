@@ -61,10 +61,14 @@ ctx.fillStyle = "gray";
 ctx.fillText("John Doe", 10, 50);
 
 window.addEventListener('scroll', () => {
-    var left_side = document.getElementsByClassName('left-intro')[0];
+    var left_side = document.getElementsByClassName('left-intro');
     var right_side = document.getElementsByClassName('right-intro')[0];
     var fixed = document.getElementsByClassName('fixed')[0];
-    left_side.classList.toggle('scrolled', window.scrollY > 0);
+        for (ele of left_side)
+        {
+            ele.classList.toggle('scrolled', window.scrollY > 0);
+        }
+    
     right_side.classList.toggle('scrolled', window.scrollY > 0);
     fixed.classList.toggle('scrolled', window.scrollY>0);
 })
