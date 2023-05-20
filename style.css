@@ -113,7 +113,23 @@ h1,h2,h3,h4,h5,h6{
 }
 .left-intro{
     padding: 150px 0;
-    width: 50%;
+    width: 60%;
+    height: 100%;
+    padding-right: 2em;
+    border-right: 1px solid #ddd;
+}
+.right-intro.scrolled{
+    width: 30%;
+    transition: width 800ms ;
+}
+.fixed.scrolled{
+        width: 28%;
+        transition: width 800ms ;
+
+}
+.left-intro.scrolled{
+    width: 70%;
+    transition: width 800ms ;
 }
 .intro-title{
     color: #987750;
@@ -142,12 +158,13 @@ h1,h2,h3,h4,h5,h6{
 }
 .right-intro{
     position: relative;
-    width: 50%;
+    width: 40%;
 }
 .fixed{
     position: fixed;
     top: 50px;
     left: 70%;
+    width: 30%;
 }
 .right-top{
     padding: 10px 0;
