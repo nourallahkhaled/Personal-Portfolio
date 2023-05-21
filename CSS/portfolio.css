@@ -84,12 +84,14 @@ width: 80%;
 transform: translateY(100%);
 box-sizing: border-box;
 background-color: transparent;
+font-size: 0.8em;
 }
 
 .description p{
 padding: 10px;
 background-color: transparent;
 color: white;
+
 }
 
 .card:hover .overlayP{
@@ -104,4 +106,18 @@ opacity: 1;
 visibility: visible;
 transform: translateY(0%);
 transition: right 1.5s ease-out;
+}
+
+@media screen and (min-width:500px) and (max-width:1000px){
+
+    .card{
+        width: 400px;
+
+    }
+
+    .description{
+        height: 0.75em;
+        
+    }
+
 }
