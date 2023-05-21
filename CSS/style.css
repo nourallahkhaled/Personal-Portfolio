@@ -275,7 +275,7 @@ h1,h2,h3,h4,h5,h6{
 
 .contact h1{
     color: #ddd;
-    font-size: 3.2em;
+    font-size: 2.7em;
 }
 
 .contact h3{
@@ -295,7 +295,7 @@ h1,h2,h3,h4,h5,h6{
 .phone a{
     text-decoration: none;
     color: #917706;
-    font-size: 50px;
+    font-size: 40px;
     padding:32px;
     padding-top: 100px;
     margin-bottom: 100px;
@@ -304,7 +304,7 @@ h1,h2,h3,h4,h5,h6{
 .mail a{
     
     color: #f3f0ef;
-    font-size: 30px;
+    font-size: 25px;
     padding:30px;
     padding-top: 100px;
     margin-bottom: 100px;
