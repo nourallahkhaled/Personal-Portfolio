@@ -108,7 +108,7 @@ transform: translateY(0%);
 transition: right 1.5s ease-out;
 }
 
-@media screen and (min-width:500px) and (max-width:1000px){
+@media screen and (min-width:400px) and (max-width:1000px){
 
     .card{
         width: 400px;

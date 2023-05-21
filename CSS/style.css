@@ -259,8 +259,60 @@ h1,h2,h3,h4,h5,h6{
     text-align: justify;
 }
 
+/* contact */
 
-@media screen and (min-width:600px) and (max-width:1000px){
+.contact{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.contact p{
+    color: #917706;
+    font-size: 1.7em;
+    margin: 50px;
+}
+
+.contact h1{
+    color: #ddd;
+    font-size: 3.2em;
+}
+
+.contact h3{
+    color: #c9a01a;
+    font-size:20px;
+    margin: 0;
+}
+
+.contact h2{
+   font-size: 2em;
+   line-height: 2em;
+   padding: 20px;
+   color: #ddd
+  
+}
+
+.phone a{
+    text-decoration: none;
+    color: #917706;
+    font-size: 50px;
+    padding:32px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mail a{
+    
+    color: #f3f0ef;
+    font-size: 30px;
+    padding:30px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 200px;
+}
+
+
+@media screen and (min-width:400px) and (max-width:1000px){
 
     .right-intro{
         display: none;
